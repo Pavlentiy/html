@@ -1,0 +1,40 @@
+
+<form method="post" action="/cgi-bin/order.cgi">
+
+  <fieldset>
+    <legend accesskey="c">Информация о кредитной карте<br></legend>
+    <p>
+      <label accesskey="v">
+        <input name="card" value="visa" type="radio"> Visa
+      </label>
+      <label accesskey="m">
+        <input name="card" value="mc" type="radio"> Mastercard
+      </label>
+      <br>
+      <label accesskey="n">
+        Номер: <input name="number" type="text">
+      </label>
+      <label accesskey="e">
+        Срок действия: <input name="expiry" type="text">
+      </label>
+    </p>
+  </fieldset>
+
+  <p>
+    <input value="Отправить заказ" accesskey="s" type="submit">
+  </p>
+
+  <address>
+    Если у вас имеются вопросы по поводу заказа свяжитесь с нами по адресу
+    <a href="mailto:orders@htmlhelp.com">orders@intuit.ru</a>,
+    Или телефону в офисе (+7 499)253-9312.
+  </address>
+
+</form>
+
+<acronum title="RUSSIA">USSA</acronum>
+<p>&copy;</p>
+<ins datetime="1994-11-05T08:15:30-05:00" title="text">любой текст</ins>
+
+
+
