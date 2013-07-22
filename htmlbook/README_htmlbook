@@ -1,0 +1,28 @@
+ Topic of tasks		ID
+-CSS   	  		с
+-CSS3			c3
+-HTML5			h5
+-XHTML			xh
+-вёрстка		v
+-градиент		grad
+-границы		gran
+-индекс			i
+-отступы		ot
+-ошибки			osh	
+-позиционирование	po
+-псевдоклассы		ps
+-скругленные уголки	skr
+-слои	     		slo
+-спецсимволы		spe
+-списки			spi
+-ссылки			ssy
+-таблицы		tab
+-текст			tek
+-тень			ten
+-фон			fon
+-формы			for
+-цвет			ts
+
+A rule to build a name of file
+<ID><Difficulty>.html
+
