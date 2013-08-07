@@ -1,37 +1,55 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>Нумерация страниц</title>
-  <style>
-    .item-list{
-    border-bottom: 4px solid green;
-    background-color: lightgreen;
-    color: red;
-    padding: 5px;
-    
+  <head>
+    <meta charset="utf-8">
+    <title>Нумерация страниц</title>
+    <style>
+      
+      body{
+      margin: 0px;
 }
-    ul.pager li{
-    display: inline;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-    .pager-*:hover{
-    background-color: black;
-}
-    
-  </style>
- </head> 
- <body>
-  <div class="item-list">
-   <ul class="pager">
-    <li class="pager-current first"><span>1</span></li>
-    <li class="pager-item"><a href="/node?page=1" title="На страницу номер 2">2</a></li>
-    <li class="pager-item"><a href="/node?page=2" title="На страницу номер 3">3</a></li>
-    <li class="pager-item"><a href="/node?page=3" title="На страницу номер 4">4</a></li>
-    <li class="pager-next last"><a href="/node?page=1" title="На следующую страницу">›</a></li>
-   </ul>
-  </div>
-  <p>Содержание</p>
- </body>
+      li[class|="pager"] {
+      border-bottom: 4px solid green;
+      background-color: lightgreen;
+      color: brown;
+      padding: 10px;
+      height: 100px;
+
+      }
+
+      li[class|="pager"]:hover{
+      border-bottom: 4px solid black;
+      background-color: gray;
+      color: black;
+      padding: 10px;
+      box-shadow: 0 0 10px 2px gray;
+      }
+
+      .item-list{
+      background-color: silver;
+      height: 50px;
+      }
+
+      ul.pager li{
+      display: inline;
+/*      margin-right: 5px;*/
+
+      }
+ 
+      a{text-decoration: none;}   
+
+    </style>
+  </head> 
+  <body>
+    <div class="item-list">
+      <ul class="pager">
+	<li class="pager-current first"><span>1</span></li>
+	<li class="pager-item"><a href="/node?page=1" title="На страницу номер 2">2</a></li>
+	<li class="pager-item"><a href="/node?page=2" title="На страницу номер 3">3</a></li>
+	<li class="pager-item"><a href="/node?page=3" title="На страницу номер 4">4</a></li>
+	<li class="pager-next last"><a href="/node?page=1" title="На следующую страницу">›</a></li>
+      </ul>
+    </div>
+    <p>Содержание</p>
+  </body>
 </html>
