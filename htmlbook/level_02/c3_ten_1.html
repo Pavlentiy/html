@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Значки для листания фотографий</title>
+    <style type="text/css" media="screen">
+      .main{
+      height: 380px;
+      width: 600px;
+      background-image: url(../../pic/river.jpg);
+      background-size: 100%;
+
+      }
+      
+      .click:hover{
+      background-color: red;
+      box-shadow: 0 0 4px 4px white;
+
+      cursor: pointer; /* Change the cursor*/
+      }
+
+      .box{
+      position: relative;
+
+      bottom: -355px;
+      left: 42%;
+
+      width: 10px;
+      height: 10px;
+
+      background-color: black;
+      border: 2px solid white;
+      float: left;
+      margin-right: 5px;
+      border-radius: 50%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box click"></div>
+      <div class="box click"></div>
+      <div class="box click"></div>
+      <div class="box click"></div>
+      <div class="box click"></div>
+    </div>
+
+  </body>
+</html>

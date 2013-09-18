@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Обязательные поля формы</title>
+<style type="text/css" media="screen">
+  body{
+  background-image: url(../../pic/pic.jpg);
+
+  }
+
+  #my{
+  background-color: #8D8D8D;
+  height: 250px;
+  width: 400px;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  padding: 15px;
+  background: rgba(136,136,136,0.4);
+  box-shadow: 0px 0px 5px 2px black;
+  border-radius: 20px;
+  background-image: -moz-linear-gradient(bottom right, #565656 10%, #6E6E6E 50%);
+
+  
+}
+
+  p{
+    color: white;
+  text-shadow: 1px 3px 1px 2 #6E6E6E;
+  }
+
+  input:valid{
+  background-color: white; 
+  position: absolute;
+  box-shadow: none;
+  left: 90px;
+    }
+
+  input:invalid{
+  background-color: #FFA3A3;
+  position: absolute;
+  box-shadow: none;
+  
+  left: 90px;
+  }
+  
+  #s{
+  background-image: -moz-linear-gradient(bottom, #f4f4ff 30%, #F4F4F4 60%);
+  border-radius: 3px;
+  width: 70px;
+  border: none;
+  position: absolute;
+  right: 41.25%;
+  }
+
+</style>
+  </head>
+  <body>
+    <form method="GET" id="my" action="ok.html">
+      <p>Пожалуйста, заполните обязательные поля</p>
+      <p>Name: <input  type="text" name="name"  placeholder="Enter your name" required="[A-Za-z]" tabindex="1" /></p>
+      <p>Age: <input  type="number" name="age" min="10" max="50"    tabindex="2"/></p>
+      <p>Email: <input type="email" name="em" placeholder="Enter your email" reguired="[A-Za-z]@[A-Za-z].[A-Za-z]" tabindex="3"/> </p>
+      <p>Site: <input type="url" name="sit" placeholder="Enter site within http://"  tabindex="4" /> </p>
+      <p> <input id="s" type="submit" name="sub" value="Submit" />  </p>
+
+
+      <p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Текст в рамке</title>
+    <style type="text/css" media="screen">
+      .out{
+      width: 200px;
+      height: 100px;
+      background-color: white;
+      border: 1px solid black;
+      
+      }
+
+      .in1{
+      width: 99%;
+      height: 98px;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      background-color: black;
+      border: 1px solid white;
+      width: 49%;
+      float: right;
+      color: white;
+      text-align: left;      
+      }
+
+      .in2{
+      width: 99%;
+      height: 98px;
+      position: relative;
+      top: 0px;
+      right: 0px;
+      background-color: white;
+      color: black;
+      text-align: right;
+      
+      border: 1px solid white;
+      width: 49%;
+      }
+      
+
+      .in1:hover{
+      width: 99%;
+      height: 98px;
+      position: relative;
+      top: 0px;
+      right: 0px;
+      background-color: white;
+      border: 1px solid white;
+      width: 49%;
+      float: right;
+      color: black;
+      text-align: left;      
+      box-shadow: inset 0 0 10px 5px blue;
+      }
+
+/*     .in2:hover{
+      width: 99%;
+      height: 98px;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      background-color: black;
+      color: white;
+      text-align: right;
+      
+      border: 1px solid white;
+      width: 49%;
+      }*/
+
+    </style>
+  </head>
+  <body>
+    <div class="out">
+      <div class="in1">WHITE</div>
+      <div class="in2">BLACK</div>
+</div>
+  </body>
+</html>
